@@ -2,12 +2,13 @@
 import express from "express";
 import cors from "cors";
 import { v4 as uuidv4 } from "uuid";
+import "dotenv/config";
 
 // Initialize Express app
 const app = express();
 
 // Define the port
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 // Middleware
 app.use(cors());
