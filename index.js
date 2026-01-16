@@ -25,7 +25,7 @@ app.get("/", (_, res) => {
 
 // TEST endpoints
 app.get("/data", (_, res) => {
-  res.status(200).json({ message: "get retrieved successfully", data: temp });
+  res.status(200).json({ message: "Data retrieved successfully", data: temp });
 });
 
 app.post("/data", (req, res) => {
