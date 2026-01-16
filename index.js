@@ -20,7 +20,7 @@ const temp = [];
 
 // Health check endpoint
 app.get("/", (_, res) => {
-  res.status(200).json({ message: "Server is healthy 🙌" });
+  res.status(200).json({ message: "Server is healthy v2.0 🙌" });
 });
 
 // TEST endpoints
